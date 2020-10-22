@@ -1,0 +1,8 @@
+<div onclick="getRecipeDetails(${myId})"  class="col-md-4">
+<div class="recipe py-3" id=recipeDetail>
+  <img src='${allRecipes[i].image_url}' class="w-100">
+  <h6 class="color-mine">${allRecipes[i].title}</h6>
+  <span>${allRecipes[i].publisher}</span>
+  <a href="${allRecipes[i].source_url}" target=_blank >Details<a>
+ </div>
+</div>  
